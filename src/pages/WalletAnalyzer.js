@@ -118,16 +118,9 @@ const connectWallet = async () => {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center p-6">
       <div className="text-center mt-20">
-         <img
-    src="logob.png" // <- replace with your actual logo path (e.g., public/logo.png)
-    alt="EthIQ Logo"
-    className="mx-auto w-20 h-20 md:w-28 md:h-28 mb-4"
-  />
-        <h1 className="text-4xl font-bold text-white mb-4"> Connect Your Wallet to Analyze</h1>
-        <p className="text-gray-400 text-lg max-w-xl mx-auto mb-8">
-          This tool helps you understand your Ethereum wallet. It securely reads your ETH and ERC-20
-          token balances, then provides an AI-generated analysis of your portfolio — without moving any funds.
-        </p>
+        
+        <h1 className="text-4xl font-bold text-white mb-4"> Connect Your Wallet  </h1>
+        
       </div>
 
       {!walletAddress ? (
@@ -145,7 +138,7 @@ const connectWallet = async () => {
           </div>
 
           <div className="bg-gray-800 rounded p-4 mb-6">
-            <h2 className="text-xl font-bold mb-2">🧠 AI Analysis</h2>
+            <h2 className="text-xl font-bold mb-2"> </h2>
             <p className="text-green-300 font-mono whitespace-pre-line">{typedSummary}</p>
           </div>
 
