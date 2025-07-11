@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.top5-section {
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.top5-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-family: 'Exo', sans-serif;
+}
+
+.token-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.token-card {
+  cursor: pointer;
+  width: 150px;
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.token-card:hover {
+  background: #272727;
+  transform: translateY(-3px);
+}
+
+.token-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5rem;
+}
+
+.token-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #eee;
+}
+
+.token-price {
+  font-size: 0.9rem;
+  color: #bbb;
+}
