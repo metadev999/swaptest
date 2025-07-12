@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
- 
+ import RugCheckModal from "./RugCheckModal";
 
 
 import {
@@ -52,6 +52,8 @@ function App() {
 
   return (
     <BrowserRouter>
+
+       <RugCheckModal />
       <div className="relative min-h-screen bg-gray-900 text-white">
         {/* Sidebar for Desktop */}
         <aside
@@ -93,7 +95,7 @@ function App() {
 <div className="mt-auto pt-6">
   <div className="flex justify-center gap-3">
     <a
-      href="https://twitter.com/#"
+      href="https://x.com/GrokDex_Eth"
       target="_blank"
       rel="noopener noreferrer nofollow"
       className="hover:text-blue-400"
@@ -104,7 +106,7 @@ function App() {
       </svg>
     </a>
     <a
-      href="https://telegram.me/#"
+      href="https://t.me/GrokDexERC"
       target="_blank"
       rel="noopener noreferrer nofollow"
       className="hover:text-blue-400"
