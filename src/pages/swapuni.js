@@ -659,7 +659,7 @@ function Header({ activeView, setActiveView }) {
   return (
     <header className="grid grid-cols-3 items-center p-4 border-b border-gray-800">
         <div className="flex items-center gap-4">
-           
+            <UniswapLogoIcon />
             <nav className="hidden md:flex items-center gap-2">
                 <button onClick={() => setActiveView('swap')} className={`px-3 py-2 rounded-lg text-md font-semibold ${activeView === 'swap' ? 'text-white' : 'text-gray-400 hover:text-white'}`}>Trade</button>
                 <button onClick={() => setActiveView('explore')} className={`px-3 py-2 rounded-lg text-md font-semibold ${activeView === 'explore' ? 'text-white' : 'text-gray-400 hover:text-white'}`}>Explore</button>

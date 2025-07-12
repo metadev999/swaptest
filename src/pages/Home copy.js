@@ -185,7 +185,7 @@ const summarizeRisk = (data) => {
 
       {/* Hero Section */}
 <div className="text-center mb-12">
- <svg width="28" height="28" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.424 0.236328C9.38491 0.236328 0.423828 9.19741 0.423828 20.2365C0.423828 31.2756 9.38491 40.2367 20.424 40.2367C31.4631 40.2367 40.4242 31.2756 40.4242 20.2365C40.4242 9.19741 31.4631 0.236328 20.424 0.236328ZM28.4283 23.2365C28.4283 24.3386 27.5304 25.2365 26.4283 25.2365H24.4283V27.2365C24.4283 28.3386 23.5304 29.2365 22.4283 29.2365C21.3262 29.2365 20.4283 28.3386 20.4283 27.2365V25.2365H15.4283C14.3262 25.2365 13.4283 24.3386 13.4283 23.2365C13.4283 22.1344 14.3262 21.2365 15.4283 21.2365H20.4283V16.2365C20.4283 15.1344 21.3262 14.2365 22.4283 14.2365C23.5304 14.2365 24.4283 15.1344 24.4283 16.2365V21.2365H26.4283C27.5304 21.2365 28.4283 22.1344 28.4283 23.2365Z" fill="#FF007A"></path></svg>
+  <img src="logo.png" alt="logo" className="h-8 w-8" />
   <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-2">EthIQ</h1>
   <p className="text-gray-400 max-w-xl mx-auto text-lg md:text-xl">
     AI-powered Ethereum Token Analyzer – Check safety, honeypot risk, and live data instantly.

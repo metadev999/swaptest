@@ -118,7 +118,10 @@ const connectWallet = async () => {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center p-6">
       <div className="text-center mt-20">
-        
+        <div className="text-l font-bold flex items-center gap-2">
+                 <img   src="logo.png" alt="logo" className="text-center flex w-20" />
+               
+                </div>
         <h1 className="text-4xl font-bold text-white mb-4"> Connect Your Wallet  </h1>
         
       </div>
