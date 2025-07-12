@@ -122,15 +122,27 @@ function App() {
   return (
     <div className="bg-gray-950 min-h-screen text-white p-6">
       {/* Header */}
-      <header className="flex justify-between items-center mb-8">
+       <header className=" mb-8">
         
-   <section className="mb-6">
+   <section className="mb-6 mb-6 flex items-center justify-between">
   <h3 className="text-base font-semibold text-white mb-2">
     🔥 Trending Dex Tokens
   </h3>
-    
 
-  <div className="flex items-center space-x-4">
+   {/* Connect button (always visible) */}
+    <button
+      onClick={connectWallet}
+      className="flex-none bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 text-white text-sm"
+    >
+      {walletAddress ? `${walletAddress.slice(0, 6)}…` : 'Connect Wallet'}
+    </button>
+
+  
+</section>
+
+
+
+<div className="flex items-center space-x-4">
     {/* Token scroller */}
     <div className="flex-1 overflow-x-auto no-scrollbar">
       <div className="flex space-x-3">
@@ -160,16 +172,11 @@ function App() {
       </div>
     </div>
 
-    {/* Connect button (always visible) */}
    
   </div>
-</section>
-
-
-
-
         
       </header>
+
 
      
 
